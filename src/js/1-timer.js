@@ -48,7 +48,7 @@ startBtn.addEventListener('click', () => {
     remainingTime[2].innerHTML = String(time.minutes).padStart(2, '0');
     remainingTime[3].innerHTML = String(time.seconds).padStart(2, '0');
 
-    if (timeInterval <= 0) {
+    if (timeInterval <= 1000) {
       clearInterval(timerId);
       startBtn.classList.remove('disabled');
       datetimePicker.disabled = false;

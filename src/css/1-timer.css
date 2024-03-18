@@ -23,7 +23,6 @@ input:focus {
 }
 
 button {
-  /* align-self: flex-start; */
   cursor: pointer;
   border: none;
   width: 75px;
